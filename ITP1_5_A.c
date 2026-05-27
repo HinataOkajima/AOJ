@@ -3,21 +3,18 @@
 int main() {
     int H, W;
 
-    while (scanf("%d %d", &H, &W) == 2){
+   while (1) {
+    scanf("%d %d", &H, &W);
 
-        if (H == 0 && W == 0) {
-            break;
-        }
-
-        for (int i = 0; i < H; i++){
-            for (int j = 0; j < W; j++){
-                printf("#");
-            }
-
-            printf("\n");
-        }
-        printf("\n");
-
+    if (H == 0 && W ==0){
+        break;
     }
+
+    for (int i = 0; i < H; i++) {
+        for (int j = 0; j < W; j++){
+            
+        }
+    }
+   }
     return 0;
 }
